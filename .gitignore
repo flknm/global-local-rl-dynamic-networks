@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+build/
+*.egg-info/
+
+# Local tests.
+/tests/
+/pytest.ini
+
+# Personal provenance notes.
+/GITHUB_Gegenueberstellung.md
+
+# Local training and evaluation files.
+/models/
+/results/
+/runs/
+*.pt
+*.pth
+*.pkl
+*.npy
+*.npz
+*.jsonl
+*.csv
+*.pdf
+*.png
+*.xlsm
+*.xlsx
